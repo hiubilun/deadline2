@@ -1,18 +1,19 @@
 body{
-    min-width: auto;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 p{
     font-size: 20px;
     font-weight: 700;
 }
 .header{
-    min-width: auto;
+    width: 100%;
+    max-width: 1366px;
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
@@ -24,8 +25,9 @@ p{
 .logo{
     display: grid;
     place-content: center;
-    min-width: auto;
-    width: 200px;
+    align-self: center;
+    width: 100%;
+    max-width: 200px;
     height: 60px;
     border-radius: 8px;
     background-color: #E2E2E2;
@@ -34,9 +36,9 @@ p{
 .menu{
     display: grid;
     place-content: center;
-    margin-top: 13px;
-    min-width: auto;
-    width: 820px;
+    align-self: center;
+    width: 100%;
+    max-width: 820px;
     height: 34px;
     border-radius: 8px;
     background-color: #E2E2E2;
@@ -45,9 +47,9 @@ p{
 .button{
     display: grid;
     place-content: center;
-    margin-top: 9px;
-    min-width: auto;
-    width: 120px;
+    align-self: center;
+    width: 100%;
+    max-width: 120px;
     height: 42px;
     border-radius: 8px;
     background-color:#E2E2E2;
@@ -57,28 +59,28 @@ p{
     display: flex;
     justify-content: center;
     gap: 35px;
-    min-width: auto;
     width: 100%;
+    max-width: 1366px;
     height: 680px;
     background-color: #F1F1F1;
 }
 .content{
     display: grid;
     place-content: center;
-    place-self: center;
-    min-width: auto;
-    width: 585px;
+    align-self: center;
+    width: 100%;
+    max-width: 585px;
     height: 267px;
     border-radius: 8px;
     background-color: #E2E2E2;
     font-family: "Be Vietnam Pro", sans-serif;
 }
 .image{
-    margin-top: 75px;
+    align-self: center;
     display: grid;
     place-content: center;
-    min-width: auto;
-    width: 585px;
+    width: 100%;
+    max-width: 585px;
     height: 520px;
     border-radius: 8px;
     background-color: #E2E2E2;
@@ -90,26 +92,26 @@ p{
     margin-bottom: 20px;
     display: grid;
     place-content: center;
-    min-width: auto;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     height: 80px;
     border-radius: 8px;
     background-color: #E2E2E2;
     font-family: "Lora", serif;
 }
 .grid-3x2{
-    min-width: auto;
+    max-width: 1366px;
     justify-content: center;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, minmax(380px, 1fr));
     gap: 20px;
 }
 .items1{
     display: grid;
     place-content: center;
-    min-width: auto;
-    width: 380px;
+    width: 100%;
+    max-width: 380px;
     height: 420px;
     border-radius: 8px;
     background-color: #E2E2E2;
@@ -120,40 +122,42 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: auto;
     width: 100%;
+    max-width: 1366px;
     height: 580px;
     background-color: #F1F1F1;
 }
 .flex-1{
-    min-width: auto;
+    max-width: 1366px;
     justify-content: center;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(216px, 1fr));;
     gap: 16px;
 }
 .items2{
     display: grid;
     place-content: center;
-    min-width: auto;
-    width: 216px;
+    width: 100%;
+    max-width: 216px;
     height: 300px;
     border-radius: 8px;
     background-color: #E2E2E2;
     font-family: "Be Vietnam Pro", sans-serif;
 }
 .flex-2{
-    min-width: auto;
+    max-width: 1366px;
     justify-content: center;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(277.5px, 1fr));;
     gap: 20px;
 }
 .items3{
     display: grid;
     place-content: center;
-    min-width: auto;
-    width: 277.5px;
+    width: 100%;
+    max-width: 277.5px;
     height: 300px;
     border-radius: 8px;
     background-color: #E2E2E2;
@@ -163,8 +167,8 @@ footer{
     display: grid;
     place-content: center;
     margin-top: 50px;
-    min-width: auto;
     width: 100%;
+    max-width: 1366px;
     height: 72px;
     background-color: #E2E2E2;
     font-family: "Be Vietnam Pro", sans-serif;
