@@ -12,6 +12,7 @@ p{
     font-weight: 700;
 }
 .header{
+    min-width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
@@ -23,6 +24,7 @@ p{
 .logo{
     display: grid;
     place-content: center;
+    min-width: auto;
     width: 200px;
     height: 60px;
     border-radius: 8px;
@@ -33,6 +35,7 @@ p{
     display: grid;
     place-content: center;
     margin-top: 13px;
+    min-width: auto;
     width: 820px;
     height: 34px;
     border-radius: 8px;
@@ -43,6 +46,7 @@ p{
     display: grid;
     place-content: center;
     margin-top: 9px;
+    min-width: auto;
     width: 120px;
     height: 42px;
     border-radius: 8px;
@@ -53,6 +57,7 @@ p{
     display: flex;
     justify-content: center;
     gap: 35px;
+    min-width: auto;
     width: 100%;
     height: 680px;
     background-color: #F1F1F1;
@@ -61,6 +66,7 @@ p{
     display: grid;
     place-content: center;
     place-self: center;
+    min-width: auto;
     width: 585px;
     height: 267px;
     border-radius: 8px;
@@ -71,6 +77,7 @@ p{
     margin-top: 75px;
     display: grid;
     place-content: center;
+    min-width: auto;
     width: 585px;
     height: 520px;
     border-radius: 8px;
@@ -83,6 +90,7 @@ p{
     margin-bottom: 20px;
     display: grid;
     place-content: center;
+    min-width: auto;
     width: 600px;
     height: 80px;
     border-radius: 8px;
@@ -90,6 +98,7 @@ p{
     font-family: "Lora", serif;
 }
 .grid-3x2{
+    min-width: auto;
     justify-content: center;
     margin: 0 auto;
     display: grid;
@@ -99,6 +108,7 @@ p{
 .items1{
     display: grid;
     place-content: center;
+    min-width: auto;
     width: 380px;
     height: 420px;
     border-radius: 8px;
@@ -110,11 +120,13 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: auto;
     width: 100%;
     height: 580px;
     background-color: #F1F1F1;
 }
 .flex-1{
+    min-width: auto;
     justify-content: center;
     margin: 0 auto;
     display: flex;
@@ -123,6 +135,7 @@ p{
 .items2{
     display: grid;
     place-content: center;
+    min-width: auto;
     width: 216px;
     height: 300px;
     border-radius: 8px;
@@ -130,7 +143,7 @@ p{
     font-family: "Be Vietnam Pro", sans-serif;
 }
 .flex-2{
-    width: 100%;
+    min-width: auto;
     justify-content: center;
     margin: 0 auto;
     display: flex;
@@ -139,6 +152,7 @@ p{
 .items3{
     display: grid;
     place-content: center;
+    min-width: auto;
     width: 277.5px;
     height: 300px;
     border-radius: 8px;
@@ -149,6 +163,7 @@ footer{
     display: grid;
     place-content: center;
     margin-top: 50px;
+    min-width: auto;
     width: 100%;
     height: 72px;
     background-color: #E2E2E2;
