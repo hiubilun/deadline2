@@ -10,7 +10,8 @@ body{
     box-sizing: border-box;
 }
 #header{
-    padding: 30px 25px 30px;
+    padding-top: 25px;
+    padding-bottom: 25px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,11 +64,11 @@ body{
 .container{
     padding-top: 30px;
     padding-bottom: 30px;
-    max-width: 100%;
 }
 .content{
     display: flex;
     gap: 30px;
+    width: 100%;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -77,9 +78,10 @@ body{
     justify-self: center;
     font-family: "Lora", serif;
     background-color: #E2E2E2;
-    width: 600px;
+    width: 95%;
+    max-width: 600px;
     height: 80px;
-    border-radius: 8px;
+    border-radius: 8px; 
     margin-bottom: 30px;
 }
 .item-1{
