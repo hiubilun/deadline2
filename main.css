@@ -70,6 +70,7 @@ body{
     gap: 30px;
     width: 100%;
     justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 .title{
