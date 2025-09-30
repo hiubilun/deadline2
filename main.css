@@ -65,10 +65,20 @@ body{
     padding: 50px 30px 50px;
 }
 .content{
-    display: flex;
-    gap: 30px;
     width: 100%;
+    gap: 30px;
     justify-content: center;
+}
+.content .grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.content .flex-row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 .title{
     display: grid;
