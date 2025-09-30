@@ -67,6 +67,7 @@ body{
 }
 .content{
     display: flex;
+    flex-direction: row;
     gap: 30px;
     width: 100%;
     justify-content: center;
