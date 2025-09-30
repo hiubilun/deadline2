@@ -66,6 +66,7 @@ body{
 }
 .content{
     display: flex;
+    flex-wrap: nowrap;
     gap: 30px;
     width: 95%;
     max-width: 1366px;
