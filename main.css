@@ -62,12 +62,10 @@ body{
     background-color: #F1F1F1F1;
 }
 .container{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 50px 30px 50px;
 }
 .content{
     display: flex;
-    flex-direction: row;
     gap: 30px;
     width: 100%;
     justify-content: center;
@@ -87,7 +85,8 @@ body{
 .item-1{
     display: grid;
     place-content: center;
-    width: 380px;
+    width: 100%;
+    max-width: 380px;
     height: 420px;
     border-radius: 8px;
     background-color: #E2E2E2;
