@@ -61,12 +61,6 @@ body{
 .light-gray{
     background-color: #F1F1F1F1;
 }
-div{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-}
 .container{
     padding: 50px 30px 50px;
 }
