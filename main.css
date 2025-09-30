@@ -71,6 +71,11 @@ body{
     width: 100%;
     justify-content: center;
 }
+#grid-1{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto;
+}
 .title{
     display: grid;
     place-content: center;
