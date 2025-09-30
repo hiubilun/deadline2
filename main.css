@@ -62,7 +62,8 @@ body{
     background-color: #F1F1F1F1;
 }
 .container{
-    padding: 30px 50px 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .content{
     display: flex;
@@ -90,6 +91,7 @@ body{
     height: 420px;
     border-radius: 8px;
     background-color: #E2E2E2;
+    margin-bottom: 30px;
 }
 .item-2{
     display: grid;
@@ -98,6 +100,7 @@ body{
     height: 300px;
     border-radius: 8px;
     background-color: #E2E2E2;
+    margin-bottom: 30px;
 }
 .item-3{
     display: grid;
@@ -106,6 +109,7 @@ body{
     height: 300px;
     border-radius: 8px;
     background-color: #E2E2E2;
+    margin-bottom: 30px;
 }
 #footer{
     height: 72px;
