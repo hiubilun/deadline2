@@ -85,7 +85,7 @@ body{
 .item-1{
     display: grid;
     place-content: center;
-    width: 380px;
+    max-width: 380px;
     height: 420px;
     border-radius: 8px;
     background-color: #E2E2E2;
