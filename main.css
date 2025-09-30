@@ -61,24 +61,21 @@ body{
 .light-gray{
     background-color: #F1F1F1F1;
 }
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
 .container{
     padding: 50px 30px 50px;
 }
 .content{
-    width: 100%;
-    gap: 30px;
-    justify-content: center;
-}
-.content.grid-3{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-}
-.content.flex-row{
     display: flex;
-    flex-wrap: nowrap;
+    gap: 30px;
+    width: 95%;
+    max-width: 1366px;
     justify-content: center;
-    align-items: center;
 }
 .title{
     display: grid;
@@ -95,6 +92,7 @@ body{
 .item-1{
     display: grid;
     place-content: center;
+    width: 100%;
     max-width: 380px;
     height: 420px;
     border-radius: 8px;
