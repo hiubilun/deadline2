@@ -72,7 +72,7 @@ body{
     justify-content: center;
 }
 #grid-1{
-    justify-items: center;
+    justify-self: center;
     display: inline-grid;
     gap: 30px;
     grid-template-columns: auto auto auto;
