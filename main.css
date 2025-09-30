@@ -70,8 +70,7 @@ body{
     gap: 30px;
     width: 100%;
     justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap:  nowrap;
 }
 .title{
     display: grid;
