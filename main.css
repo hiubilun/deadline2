@@ -68,8 +68,7 @@ body{
     display: flex;
     flex-wrap: nowrap;
     gap: 30px;
-    width: 95%;
-    max-width: 1366px;
+    width: 100%;
     justify-content: center;
 }
 .title{
