@@ -69,12 +69,12 @@ body{
     gap: 30px;
     justify-content: center;
 }
-.content .grid-3{
+.content.grid-3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 }
-.content .flex-row{
+.content.flex-row{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
