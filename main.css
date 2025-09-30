@@ -82,6 +82,7 @@ body{
     max-width: 600px;
     height: 80px;
     border-radius: 8px; 
+    margin-bottom: 30px;
 }
 .item-1{
     display: grid;
