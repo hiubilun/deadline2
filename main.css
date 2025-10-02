@@ -58,7 +58,6 @@ html{
     display: flex;
     width: 1190px;
     justify-content: space-between;
-    align-items: center;
 }
 #two-rows{
     flex-direction: column;
@@ -83,11 +82,13 @@ html{
     height: 420px;
 }
 .item-2{
-    width: 216px;
+    width: 95%;
+    max-width: 216px;
     height: 300px;
 }
 .item-3{
-    width: 277.5px;
+    width: 95%;
+    max-width: 277.5px;
     height: 300px;
 }
 #footer{
