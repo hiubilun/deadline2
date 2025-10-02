@@ -56,9 +56,9 @@ html{
 }
 .content{
     display: flex;
-    justify-content: center;
-    gap: 20px;
     width: 1190px;
+    justify-content: space-between;
+    align-items: center;
 }
 #two-rows{
     flex-direction: column;
