@@ -10,12 +10,15 @@ html{
     box-sizing: border-box;
 }
 #header{
+    justify-self: center;
+}
+#small-header{
+    width: 1190px;
     padding-top: 25px;
-    padding-bottom: 25px; 
+    padding-bottom: 25px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 30px;
+    justify-content: space-between;
 }
 .centered-box{
     display: grid;
