@@ -60,6 +60,7 @@ html{
 .content{
     display: flex;
     flex-wrap: wrap;
+    row-gap: 25px;
     width: 1190px;
     margin: auto;
     justify-content: space-between;
