@@ -14,8 +14,8 @@ html{
     margin: 0 auto;
 }
 #small-header{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,7 +55,8 @@ html{
     background-color: #F1F1F1;
 }
 .container{
-    padding: 50px 30px 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,7 +74,7 @@ html{
     font-family: "Lora", serif;
     width: 600px;
     height: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .item-1{
     width: 380px;
